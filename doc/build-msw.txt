@@ -77,9 +77,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-Litecoin
+SaquoiaCoin
 -------
 DOS prompt:
-cd \litecoin\src
+cd \sequoiacoin\src
 mingw32-make -f makefile.mingw
-strip litecoind.exe
+strip sequoiacoind.exe
