@@ -13,7 +13,7 @@ Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building Litecoin-QT, the
+See readme-qt.rst for instructions on building SequoiaCoin-QT, the
 graphical user interface.
 
 Tested on 10.5, 10.6 and 10.7 intel.  PPC is not supported because it's big-endian.
@@ -28,7 +28,7 @@ install DVD, but if not, you can get the current version from https://developer.
 
 1.  Clone the github tree to get the source code:
 
-git clone git@github.com:litecoin-project/litecoin.git litecoin
+https://github.com/SuperNova5334/sequoiacoin.git
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -42,14 +42,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build litecoind:
+4.  Now you should be able to build sequoiacoin:
 
-cd litecoin/src
+cd sequoiacoin/src
 make -f makefile.osx USE_IPV6=1
 
 Run:
-  ./litecoind --help  # for a list of command-line options.
+  ./sequoiacoin --help  # for a list of command-line options.
 Run
-  ./litecoind -daemon # to start the litecoin daemon.
+  ./sequoiacoind -daemon # to start the litecoin daemon.
 Run
-  ./litecoind help # When the daemon is running, to get a list of RPC commands
+  ./sequoiacoind help # When the daemon is running, to get a list of RPC commands
